@@ -1,0 +1,15 @@
+{
+  "name": "valentines",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build --public-url ./ index.html -d docs",
+    "clean": "rm -Rf dist"
+  },
+  "devDependencies": {
+    "aos": "^2.3.4",
+    "modern-normalize": "^1.0.0",
+    "parcel": "^1.12.4",
+    "sass": "^1.32.4"
+  }
+}
